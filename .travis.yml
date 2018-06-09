@@ -1,7 +1,3 @@
-sudo: required
-addons:
-  chrome: stable
-
 language: node_js
 node_js:
   - "8"
@@ -15,4 +11,3 @@ before_script:
 
 script:
   - ng build --prod --aot
-  - ng test
